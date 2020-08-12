@@ -1,0 +1,17 @@
+# Dependencies
+node_modules
+
+# Build
+dist
+
+# Reports
+reports
+
+# Configuration
+.env
+
+# stryker temp files
+.stryker-tmp
+
+# OS
+.DS_Store
