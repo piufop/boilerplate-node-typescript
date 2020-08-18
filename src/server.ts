@@ -1,11 +1,9 @@
 import express from 'express';
-import StuffController from '@controllers/stuff';
+import routes from './routes';
 
 const app = express();
 
-const stuff = new StuffController();
-
-app.get('/stuff/:stuffId', (request, response) => stuff.get(request, response));
+app.use(routes);
 
 const port = 3333;
 app.listen(port, () => {
