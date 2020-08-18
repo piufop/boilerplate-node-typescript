@@ -1,6 +1,6 @@
 # Boilerplate Node.js
 
-A boilerplate with Node.js 12, Typescript, Babel, Jest, Stryker, ESLint, Dotenv...
+A boilerplate with Node.js 12, Typescript, Babel, ExpressJS, Jest, Stryker, ESLint, Dotenv...
 
 &nbsp;
 ### Setup Instructions
