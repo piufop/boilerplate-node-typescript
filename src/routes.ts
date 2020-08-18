@@ -1,10 +1,8 @@
-import { Router, Request, Response } from 'express';
-import StuffController from '@controllers/stuff';
-
-const stuff = new StuffController();
+import { Router } from 'express';
+import stuffController from '@controllers/stuff';
 
 const routes = Router();
 
-routes.get('/stuff/:stuffId', (request: Request, response: Response) => stuff.get(request, response));
+routes.get('/stuff/:stuffId', stuffController.get);
 
 export default routes;
